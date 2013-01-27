@@ -1,0 +1,13 @@
+{
+  "name": "gedcom.js",
+  "version": "0.0.1",
+  "description": "Gedcom parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcapwell/gedcom.js"
+  },
+  "dependencies": {
+    "lazy" : "1.0.8"
+  },
+  "main": "lib/gedcom.js"
+}
