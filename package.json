@@ -1,13 +1,22 @@
 {
-  "name": "gedcom.js",
-  "version": "0.0.1",
-  "description": "Gedcom parser",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dcapwell/gedcom.js"
-  },
-  "dependencies": {
-    "lazy" : "1.0.8"
-  },
-  "main": "lib/gedcom.js"
+    "name": "gedcom",
+    "description": "Gedcom parser",
+    "version": "0.0.1"
+    "main": "lib/gedcom.js",
+    "dependencies": {
+        "lazy": "1.0.8"
+    },
+    "homepage": "https://github.com/dcapwell/gedcom.js",
+    "keywords": [
+        "gedcom",
+        "parser",
+        "genealogy"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcapwell/gedcom.js"
+    },
+    "bugs": {
+        "url": "https://github.com/dcapwell/gedcom.js/issues"
+    },
 }
