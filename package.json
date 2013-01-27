@@ -1,7 +1,7 @@
 {
     "name": "gedcom",
     "description": "Gedcom parser",
-    "version": "0.0.1"
+    "version": "0.0.1",
     "main": "lib/gedcom.js",
     "dependencies": {
         "lazy": "1.0.8"
@@ -18,5 +18,5 @@
     },
     "bugs": {
         "url": "https://github.com/dcapwell/gedcom.js/issues"
-    },
+    }
 }
