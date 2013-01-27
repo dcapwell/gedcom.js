@@ -1,0 +1,13 @@
+v0.0.1
+	* [8cbaf06] removed version from gedcom lib so npm version matches.  rolled back version and fixed script to use npm.
+	* [cf3e3b4] 0.0.2.
+	* [29fb0ef] working on a release script.  fixed json bugs in package.json.
+	* [b9354b4] added comments to show what was referenced.
+	* [eef19d3] renamed README to put markdown postfix.
+	* [a948ff1] renamed README to put markdown postfix.
+	* [9f0c0f0] added more details to package.json.  Added a README file.
+	* [04c8cf9] Fixed bug where simplify removed id.
+	* [579e183] reformated code.
+	* [f59f22a] made the formatLine return a new Row class obj rather than new obj each time.  removed unused variables and added method to removed unneeded data points after parsing.
+	* [adc6b05] first draft at parsing gedcom files.
+
