@@ -4,7 +4,7 @@ FILE=RELEASE_NOTES
 TMP_FILE=${FILE}.tmp
 NAME=$(cat package.json | grep name | sed -e "s/.*name.*\"\(.*\)\",/\1/")
 VERSION=$(cat package.json | grep version | sed -e "s/.*version.*\"\(.*\)\",/\1/")
-TAG=$NAME-$VERSION
+TAG=v$VERSION
 
 echo "$TAG" > ${TMP_FILE}
 git describe --abbrev=0 2> /dev/null 1> /dev/null \
@@ -19,5 +19,6 @@ fi
 
 mv ${TMP_FILE} $FILE
 
-#git commit -a -m "[release-script] Updated release notes for version ${VERSION}"
-#git tag -a $TAG -m "[auto-release] version $VERSION"
+git add $FILE
+git commit -a -m "[release-script] Updated release notes for version ${VERSION}"
+npm version patch -m "[auto-release] version %s"
